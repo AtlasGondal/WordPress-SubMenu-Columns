@@ -1,0 +1,12 @@
+.sub-menu-columns ul.sub-menu li {
+    display: inline-block;
+    float: left;
+    width: 200px;
+}
+.sub-menu-columns ul.sub-menu li:nth-child(odd) {
+    float: left;
+    margin-right: 10px;
+}
+.sub-menu-columns ul.sub-menu li:nth-child(even) {
+    float: right;
+}
